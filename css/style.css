@@ -1740,6 +1740,39 @@ ul { list-style: none; }
   transform: translateY(-2px);
 }
 
+/* Instagram button in footer bottom */
+.footer__bottom-ctas {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer__ig-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, #405DE6, #C13584, #F77737);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  transition: opacity var(--ease), transform var(--ease);
+}
+
+.footer__ig-cta:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.footer__ig-cta svg,
+.footer__email-cta svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
@@ -1844,10 +1877,10 @@ ul { list-style: none; }
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(193,53,132,0.45);
 }
-.btn-ig img {
+.btn-ig svg {
   width: 18px;
   height: 18px;
-  border-radius: 4px;
+  fill: white;
   flex-shrink: 0;
 }
 
