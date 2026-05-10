@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\Samuel\\\\OneDrive - Freiherr-vom-Stein-Gymnasium Bünde\\\\Dokumente\\\\Claude Apps\\\\Portfolio Webseite\\\\images\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}
